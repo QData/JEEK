@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1528899503287.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "194391400",
+    "id" : "CE275E88",
+    "lastKnownWriteTime" : 1527863345,
+    "last_content_update" : 1527863345,
+    "path" : "~/Github/JEEK/jeek-cran/jeek/R/jeek.R",
+    "project_path" : "R/jeek.R",
+    "properties" : {
+        "cursorPosition" : "97,18",
+        "scrollLine" : "114"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

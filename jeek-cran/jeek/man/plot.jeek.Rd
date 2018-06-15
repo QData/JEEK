@@ -44,10 +44,11 @@ Beilun Wang, Arshdeep Sekhon, Yanjun Qi. A Fast and Scalable Joint Estimator for
   \code{\link{jeek}}
 }
 \examples{
-  \dontrun{
-results = jeek(X = exampleData , 0.05, covType = "cov", parallel = FALSE)
+data(cancer)
+X = list(as.matrix(cancer[[1]][which(cancer[[2]] == "not"),]),
+as.matrix(cancer[[1]][which(cancer[[2]] == "pcr"),]))
+results = jeek(X, 0.05, covType = "cov", parallel = FALSE)
 plot.jeek(results)
-plot.jeek(results, type="neighbor", index=50)
-  }
+plot.jeek(results, type="neighbor", index=10)
 }
 \keyword{ jeek }

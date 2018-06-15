@@ -30,14 +30,13 @@ Beilun Wang, Arshdeep Sekhon, Yanjun Qi. A Fast and Scalable Joint Estimator for
 Beilun Wang}
 
 \examples{
-\dontrun{
-## load an example multi-task dataset with K=2 tasks, p=100 features, and n=200 samples per task:
-data(exampleData)
+data(cancer)
+X = list(as.matrix(cancer[[1]][which(cancer[[2]] == "not"),]),
+as.matrix(cancer[[1]][which(cancer[[2]] == "pcr"),]))
 ##run jeek
-result = jeek(X = exampleData , 0.05, covType = "cov", parallel = FALSE)
-## get neighbors of node 50:
-net.neighbors(result$Graphs,index=50)
-}
+result = jeek(X, 0.05, covType = "cov", parallel = FALSE)
+## get neighbors of node 10:
+net.neighbors(result$Graphs,index=10)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

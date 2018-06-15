@@ -10,7 +10,7 @@ This is an R implementation of a Fast and Scalable Joint Estimator for Integrati
 Package: \tab jeek\cr
 Type: \tab Package\cr
 Version: \tab 1.0.0\cr
-Date: \tab 2018-05-31\cr
+Date: \tab 2018-06-15\cr
 License: \tab GPL (>= 2)\cr
 }
 We consider the problem of including additional knowledge in estimating sparse Gaussian graphical models (sGGMs) from aggregated samples, arising often in bioinformatics and neuroimaging applications. Previous joint sGGM estimators either fail to use existing knowledge or cannot scale-up to many tasks (large \eqn{K}) under a high-dimensional (large \eqn{p}) situation.  In this paper, we propose a novel Joint Elementary Estimator incorporating additional Knowledge (JEEK) to infer multiple related sparse Gaussian Graphical models from
@@ -24,12 +24,12 @@ Beilun Wang
 Maintainer: Beilun Wang - bw4mw at virginia dot edu
 }
 \references{
-Beilun Wang, Arshdeep Sekhon, Yanjun Qi. A Fast and Scalable Joint Estimator for Integrating Additional Knowledge in Learning Multiple Related Sparse Gaussian Graphical Models. ICML 2018
+Beilun Wang, Arshdeep Sekhon, Yanjun Qi. A Fast and Scalable Joint Estimator for Integrating Additional Knowledge in Learning Multiple Related Sparse Gaussian Graphical Models. <arXiv:1806.00548>
 }
 \keyword{ package }
 \examples{
-\dontrun{
-data(exampleData)
-jeek(X = exampleData , 0.05, covType = "cov", parallel = FALSE)
-}
+data(cancer)
+X = list(as.matrix(cancer[[1]][which(cancer[[2]] == "not"),]),
+as.matrix(cancer[[1]][which(cancer[[2]] == "pcr"),]))
+jeek(X, 0.05, covType = "cov", parallel = FALSE)
 }

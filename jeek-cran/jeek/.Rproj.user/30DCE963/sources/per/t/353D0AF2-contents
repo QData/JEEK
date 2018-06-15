@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+import("lpSolve","parallel","pcaPP","igraph")
+importFrom("stats", "cov")
+export(jeek, plot.jeek, net.neighbors,net.hubs,net.edges,net.degree)
+S3method(plot,jeek)
+importFrom("graphics", "plot")
