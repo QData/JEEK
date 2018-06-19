@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1529419736104.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1782473403",
+    "id" : "7F974550",
+    "lastKnownWriteTime" : 1529419879,
+    "last_content_update" : 1529419879164,
+    "path" : "E:/Github/JEEK/jeek-cran/jeek/demo/cancer.R",
+    "project_path" : "demo/cancer.R",
+    "properties" : {
+        "cursorPosition" : "49,68",
+        "scrollLine" : "20",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
