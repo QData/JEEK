@@ -4,16 +4,16 @@
     "created" : 1529093939255.000,
     "dirty" : false,
     "encoding" : "UTF-8",
-    "folds" : "0|37|3|0|\n5|36|16|0|\n19|36|37|0|\n40|42|54|0|\n56|72|130|0|\n134|11|164|0|\n137|3|163|2|\n176|3|256|2|\n263|26|337|2|\n347|3|437|2|\n444|3|455|2|\n459|3|478|2|\n",
-    "hash" : "1877674906",
+    "folds" : "0|37|3|0|\n5|36|16|0|\n19|36|37|0|\n40|42|54|0|\n56|72|130|0|\n",
+    "hash" : "2896061846",
     "id" : "F62A1957",
-    "lastKnownWriteTime" : 1529420525,
-    "last_content_update" : 1529420561136,
+    "lastKnownWriteTime" : 1530046062,
+    "last_content_update" : 1530046062303,
     "path" : "E:/Github/JEEK/jeek-cran/jeek/R/jeek.R",
     "project_path" : "R/jeek.R",
     "properties" : {
-        "cursorPosition" : "166,12",
-        "scrollLine" : "115"
+        "cursorPosition" : "134,0",
+        "scrollLine" : "39"
     },
     "relative_order" : 1,
     "source_on_save" : false,

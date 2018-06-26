@@ -18,14 +18,8 @@ cancerlist = list(as.matrix(cancer[[1]][which(cancer[[2]] == "not"),]),
 
 ### run jeek
 result = jeek(X = cancerlist, 0.25, covType = "kendall", parallel = TRUE)
-
-### obtain names for node labelling
 label = colnames(cancer[[1]])
-
-### obtain graph for creating layout
 graph = returngraph.jeek(result)
-
-### create a fixed layout on cancergraph for plotting
 layout = layout_nicely(graph,dim=2)
 
 
@@ -36,13 +30,13 @@ readline(prompt="Press [enter] to display four plots showing all graphs, shared 
 par(mfrow=c(2,2))
 
 {
-  plot.jeek(result, option = "2D", graphlabel = label, type="task", graphlayout = layout)
+  plot.jeek(result,  graphlabel = label, type="task", graphlayout = layout)
 
-  plot.jeek(result, option = "2D", graphlabel = label, type="share", graphlayout = layout)
+  plot.jeek(result,  graphlabel = label, type="share", graphlayout = layout)
 
-  plot.jeek(result, option = "2D", graphlabel = label, type="taskspecific", subID=1, graphlayout = layout)
+  plot.jeek(result,  graphlabel = label, type="taskspecific", subID=1, graphlayout = layout)
 
-  plot.jeek(result, option = "2D", graphlabel = label, type="taskspecific", subID=2, graphlayout = layout)
+  plot.jeek(result,graphlabel = label, type="taskspecific", subID=2, graphlayout = layout)
 }
 
 
@@ -65,13 +59,13 @@ readline(prompt="Press [enter] to view the four plots showing all graphs, shared
 par(mfrow=c(2,2))
 
 {
-  plot.jeek(result, option = "2D", graphlabel = label, type="task", graphlayout = layout)
+  plot.jeek(result, graphlabel = label, type="task", graphlayout = layout)
 
-  plot.jeek(result, option = "2D", graphlabel = label, type="share", graphlayout = layout)
+  plot.jeek(result, graphlabel = label, type="share", graphlayout = layout)
 
-  plot.jeek(result, option = "2D", graphlabel = label, type="taskspecific", subID=1, graphlayout = layout)
+  plot.jeek(result, graphlabel = label, type="taskspecific", subID=1, graphlayout = layout)
 
-  plot.jeek(result, option = "2D", graphlabel = label, type="taskspecific", subID=2, graphlayout = layout)
+  plot.jeek(result, graphlabel = label, type="taskspecific", subID=2, graphlayout = layout)
 }
 
 
@@ -94,13 +88,13 @@ readline(prompt="Press [enter] to display four plots showing all graphs, shared 
 par(mfrow=c(2,2))
 
 {
-  plot.jeek(result, option = "2D", graphlabel = label, type="task", graphlayout = layout)
+  plot.jeek(result, graphlabel = label, type="task", graphlayout = layout)
 
-  plot.jeek(result, option = "2D", graphlabel = label, type="share", graphlayout = layout)
+  plot.jeek(result, graphlabel = label, type="share", graphlayout = layout)
 
-  plot.jeek(result, option = "2D", graphlabel = label, type="taskspecific", subID=1, graphlayout = layout)
+  plot.jeek(result, graphlabel = label, type="taskspecific", subID=1, graphlayout = layout)
 
-  plot.jeek(result, option = "2D", graphlabel = label, type="taskspecific", subID=2, graphlayout = layout)
+  plot.jeek(result, graphlabel = label, type="taskspecific", subID=2, graphlayout = layout)
 }
 
 
