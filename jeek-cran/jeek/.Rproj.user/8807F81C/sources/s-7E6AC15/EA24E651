@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1530045672955.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "61|3|109|2|\n152|26|226|2|\n236|3|326|2|\n332|3|337|2|\n342|3|361|2|\n",
+    "hash" : "0",
+    "id" : "EA24E651",
+    "lastKnownWriteTime" : 1530646402,
+    "last_content_update" : 1530646402109,
+    "path" : "E:/Github/JEEK/jeek-cran/jeek/R/Plot.R",
+    "project_path" : "R/Plot.R",
+    "properties" : {
+        "cursorPosition" : "47,22",
+        "scrollLine" : "28",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

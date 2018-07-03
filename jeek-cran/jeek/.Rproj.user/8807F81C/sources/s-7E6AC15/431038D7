@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1530627438507.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "431038D7",
+    "lastKnownWriteTime" : 1530563624,
+    "last_content_update" : 1530563624,
+    "path" : "E:/Github/JEEK/jeek-cran/jeek/demo/synthetic.R",
+    "project_path" : "demo/synthetic.R",
+    "properties" : {
+        "cursorPosition" : "17,14",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

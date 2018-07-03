@@ -1,0 +1,17 @@
+cancer                  Microarray data set for breast cancer
+exampleData             A simulated toy dataset that includes 2 data
+                        matrices (from 2 related tasks).
+exampleDataGraph        A simulated toy dataset that includes 3 igraph
+                        objects
+jeek                    A Fast and Scalable Joint Estimator for
+                        Integrating Additional Knowledge in Learning
+                        Multiple Related Sparse Gaussian Graphical
+                        Models
+jeek-package            A Fast and Scalable Joint Estimator for
+                        Integrating Additional Knowledge in Learning
+                        Multiple Related Sparse Gaussian Graphical
+                        Models
+nip_37_data             NIPS word count dataset
+plot.jeek               Plot jeek result specified by user input
+returngraph             return igraph object from jeek result specified
+                        by user input
