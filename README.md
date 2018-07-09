@@ -13,7 +13,7 @@
 ```R
 install.packages("jeek")
 library(jeek)
-demo(jeekDemo)
+demo(jeek)
 ```
 
 
