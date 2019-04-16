@@ -2,7 +2,8 @@
 
 ## Tool JEEK: A Fast and Scalable Joint Estimator for Integrating Additional Knowledge in Learning Multiple Related Sparse Gaussian Graphical Models
 
-### Paper: [@Arxiv](https://arxiv.org/abs/1806.00548) |  
+### Paper: [@Arxiv](https://arxiv.org/abs/1806.00548) | updated version at [Here](https://github.com/QData/JEEK/blob/master/icml18-JEEKarxivUpdated.pdf)
+
 ### accepted at  [2018 ICML](http://proceedings.mlr.press/v80/wang18f.html)
 
 
